@@ -20,11 +20,11 @@
     "sort": "scripty",
     "test": "scripty"
   },
+  "gitHead": "6ec4278575cf4832a621cbe86c73c4cdc6dd67e0",
   "publishCongfig": {
     "access": "public",
     "registry": "https://npm.pkg.github.com"
   },
-  "gitHead": "6ec4278575cf4832a621cbe86c73c4cdc6dd67e0",
   "scripty": {
     "path": "../../scripts/packages"
   }
