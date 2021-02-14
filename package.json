@@ -64,11 +64,11 @@
     "node": ">=14.15",
     "yarn": ">=1.22"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://localhost:4873/"
+  },
   "scripty": {
     "path": "./scripts/workspaces"
-  },
-  "publishConfig": {
-    "registry": "http://localhost:4873/",
-    "access": "public"
   }
 }
