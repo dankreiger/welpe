@@ -1,17 +1,17 @@
 {
-  "name": "@welpe/button",
+  "name": "@welpe/theme",
   "version": "0.0.3",
   "homepage": "https://github.com/dankreiger/welpe",
   "bugs": "https://github.com/dankreiger/welpe/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/dankreiger/welpe.git",
-    "directory": "packages/Button"
+    "directory": "packages/theme"
   },
   "license": "BSD-2-Clause",
   "author": "Dan Kreiger <dan@dankreiger.com>",
-  "main": "lib/Button.js",
-  "types": "lib/Button.d.ts",
+  "main": "lib/theme.js",
+  "types": "lib/theme.d.ts",
   "scripts": {
     "build": "scripty",
     "clean": "rimraf lib *.tsbuildinfo",

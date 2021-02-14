@@ -1,4 +1,4 @@
 {
   "files": [],
-  "references": [{ "path": "Button" }]
+  "references": [{ "path": "Button" }, { "path": "theme" }]
 }
