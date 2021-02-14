@@ -20,7 +20,7 @@
     "sort": "scripty",
     "test": "scripty"
   },
-  "gitHead": "f5f064c73e771d1e3bb0a520dced610da6aadf44",
+  "gitHead": "e02461379d64a89d99451dab45b68db7ac44f3e1",
   "scripty": {
     "path": "../../scripts/packages"
   }
