@@ -3,4 +3,4 @@
 echo "┏━━━ 📦 PROD-PUBLISH ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 yarn clean && 
 yarn build && 
-lerna publish --conventional-commits 
+lerna publish --conventional-commits -y

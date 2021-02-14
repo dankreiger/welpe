@@ -37,7 +37,7 @@ jobs:
       run: yarn build
 
     - name: Create release and publish scoped package
-      run: yarn prod-publish -y
+      run: yarn prod-publish
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
