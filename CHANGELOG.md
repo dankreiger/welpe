@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.17 (2021-02-14)
+
+
+### Bug Fixes
+
+* **theme:** use gh packages ([a9ed503](https://github.com/dankreiger/welpe/commit/a9ed503536b1fc873b53bd2ee5d6e231e25e6e56))
+
+
+
+
+
 ## 0.0.14 (2021-02-14)
 
 
