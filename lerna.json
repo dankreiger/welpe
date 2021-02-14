@@ -4,8 +4,5 @@
   ],
   "npmClient": "yarn",
   "version": "0.0.11",
-  "useWorkspaces": true,
-  "nohoist": [
-    "parcel-bundler"
-  ]
+  "useWorkspaces": true
 }

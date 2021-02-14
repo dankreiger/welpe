@@ -67,10 +67,6 @@
     "node": ">=14.15",
     "yarn": ">=1.22"
   },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
-  },
   "scripty": {
     "path": "./scripts/workspaces"
   }
