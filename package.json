@@ -66,5 +66,9 @@
   },
   "scripty": {
     "path": "./scripts/workspaces"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:4873/",
+    "access": "public"
   }
 }

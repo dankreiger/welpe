@@ -21,7 +21,7 @@
     "start": "scripty",
     "test": "scripty"
   },
-  "gitHead": "94bd250fdac79950724dff227b2fd9870c53ad64",
+  "gitHead": "498b25a56364cc393bcedafab9c1b120a6eb38eb",
   "scripty": {
     "path": "../../scripts/packages"
   }
