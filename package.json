@@ -38,7 +38,7 @@
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
     "@commitlint/config-lerna-scopes": "11.0.0",
-    "@dankreiger/theme": "^0.0.16",
+    "@dankreiger/theme": "0.0.16",
     "@storybook/addon-actions": "6.1.17",
     "@storybook/addon-essentials": "6.1.17",
     "@storybook/addon-links": "6.1.17",

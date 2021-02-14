@@ -1160,7 +1160,7 @@
   resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-11.0.0.tgz#719cf05fcc1abb6533610a2e0f5dd1e61eac14fe"
   integrity sha512-VoNqai1vR5anRF5Tuh/+SWDFk7xi7oMwHrHrbm1BprYXjB2RJsWLhUrStMssDxEl5lW/z3EUdg8RvH/IUBccSQ==
 
-"@dankreiger/theme@^0.0.16":
+"@dankreiger/theme@0.0.16":
   version "0.0.16"
   resolved "https://npm.pkg.github.com/download/@dankreiger/theme/0.0.16/c4db924928b825c3cac6b18ef4ee33a9820b57669d44fba3bf68b71ddbb40cf7#a381c5d6b4e3f00a7e35e8c6a2927f71ba99bdd3"
   integrity sha512-FX5Us8iqVWZQ7euhyA9GeT2TsGkybIWe459kJzcr6Co8LFp1QfopMdQwhOyv0t1I8CVU+22vWSroRrblwy34bA==
