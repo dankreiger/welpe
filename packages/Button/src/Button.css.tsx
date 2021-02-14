@@ -1,16 +1,17 @@
 import styled from 'styled-components';
 import type { Theme } from '@welpe/theme';
+import { IButtonStProps } from './Button.types';
 
-const getColor = <C extends keyof Theme['colors']>(prop: C) => ({
+const getBackgroundColor = ({
   theme: { colors },
-}: {
-  theme: Theme;
-}): Theme['colors'][C] => {
-  console.log(colors);
-  return colors[prop];
-};
+  primary,
+}: IButtonStProps): string => colors[primary ? 'secondary' : 'primary'];
 
-export const ButtonSt = styled.button`
-  background-color: ${getColor('primary')};
+const getColor = (prop: keyof Theme['colors']) => ({
+  theme: { colors },
+}: IButtonStProps): string => colors[prop];
+
+export const ButtonSt = styled.button<IButtonStProps>`
+  background-color: ${getBackgroundColor};
   color: ${getColor('copy')};
 `;

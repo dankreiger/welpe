@@ -14,7 +14,6 @@
     "nuke": "scripty",
     "proxy-registry": "scripty",
     "sort": "scripty",
-    "start": "scripty",
     "storybook": "scripty",
     "storybook:build": "build-storybook",
     "test": "scripty"
@@ -34,7 +33,7 @@
     ]
   },
   "dependencies": {
-    "@welpe/theme": "^0.0.9"
+    "@welpe/theme": "^0.0.10"
   },
   "devDependencies": {
     "@babel/core": "7.12.16",

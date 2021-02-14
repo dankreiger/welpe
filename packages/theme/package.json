@@ -18,7 +18,6 @@
     "lint": "scripty",
     "nuke": "scripty",
     "sort": "scripty",
-    "start": "scripty",
     "test": "scripty"
   },
   "gitHead": "f5f064c73e771d1e3bb0a520dced610da6aadf44",

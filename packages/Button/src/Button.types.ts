@@ -1,16 +1,9 @@
+import type { Theme } from '@welpe/theme';
 export interface IButtonProps {
   /**
    * Is this the principal call to action on the page?
    */
-  primary?: boolean;
-  /**
-   * What background color to use
-   */
-  backgroundColor?: string;
-  /**
-   * How large should the button be?
-   */
-  size?: 'small' | 'medium' | 'large';
+  primary: boolean;
   /**
    * Button contents
    */
@@ -18,5 +11,11 @@ export interface IButtonProps {
   /**
    * Optional click handler
    */
+  onClick?: () => void;
+}
+
+export interface IButtonStProps {
+  theme: Theme;
+  primary: boolean;
   onClick?: () => void;
 }

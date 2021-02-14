@@ -5,11 +5,13 @@ import { ButtonSt } from './Button.css';
  * Primary UI component for user interaction
  */
 export const Button: React.FC<IButtonProps> = ({
-  primary = false,
-  size = 'medium',
-  backgroundColor,
   label,
-  ...props
+  primary = false,
+  onClick = () => {},
 }) => {
-  return <ButtonSt type="button">{label}</ButtonSt>;
+  return (
+    <ButtonSt primary={primary} onClick={onClick}>
+      {label}
+    </ButtonSt>
+  );
 };

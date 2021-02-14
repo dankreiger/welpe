@@ -38,5 +38,4 @@ const dark: Theme = {
 export default {
   light,
   dark,
-  Theme,
 };
