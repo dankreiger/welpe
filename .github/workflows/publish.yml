@@ -32,8 +32,13 @@ jobs:
         with:
           registry-url: 'https://npm.pkg.github.com'
           scope: '@dankreiger'
+
+      - name: Git config
+        run: git config --global user.email "dan@dankreiger.com" && git config --global user.name "Dan Kreiger"
+       
       # Publish to GitHub Packages
-      - run: yarn prod-publish
+      - name: Publish packages
+        run: yarn prod-publish
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
