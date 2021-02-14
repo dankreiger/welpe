@@ -5,12 +5,9 @@ export enum Base {
 
 export type Theme = {
   base: Base;
-  backgroundColor: {
+  colors: {
     primary: string;
     secondary: string;
-  };
-  color: {
-    font: string;
-    accent: string;
+    copy: string;
   };
 };
