@@ -1,13 +1,23 @@
 {
   "name": "@welpe/button",
   "version": "1.0.0",
+  "license": "MIT",
   "main": "./lib/Button.js",
   "types": "./lib/Button.d.ts",
-  "license": "MIT",
   "scripts": {
     "build": "scripty",
     "clean": "rimraf lib *.tsbuildinfo",
     "lint": "scripty",
+    "nuke": "scripty",
+    "sort": "scripty",
+    "start": "scripty",
     "test": "scripty"
+  },
+  "peerDependencies": {
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "scripty": {
+    "path": "../../scripts/packages"
   }
 }

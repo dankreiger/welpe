@@ -121,3 +121,6 @@ _config.yml
 
 # output
 lib
+
+# temp for testing
+packages/types

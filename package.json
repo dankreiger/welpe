@@ -10,15 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/dankreiger/welpe.git"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "author": "Dan Kreiger <dan@dankreiger.com>",
-  "main": "lib/index.js",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "build": "scripty",
-    "build-storybook": "build-storybook",
     "clean": "scripty",
     "postinstall": "scripty",
     "lint": "scripty",
@@ -26,6 +24,7 @@
     "sort": "scripty",
     "start": "scripty",
     "storybook": "start-storybook --docs -p 6006",
+    "storybook:build": "build-storybook",
     "test": "scripty"
   },
   "husky": {
@@ -35,15 +34,18 @@
     }
   },
   "lint-staged": {
-    "packages/**/*.{js,ts,tsx,jsx,json,css}": [
+    "packages/**/src/*.{js,ts,tsx,jsx,json,css}": [
       "prettier --single-quote --write"
     ],
-    "*.md": [
+    "*.{md,mdx}": [
       "prettier --write"
     ]
   },
   "devDependencies": {
     "@babel/core": "7.12.16",
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "@commitlint/config-lerna-scopes": "11.0.0",
     "@storybook/addon-actions": "6.1.17",
     "@storybook/addon-essentials": "6.1.17",
     "@storybook/addon-links": "6.1.17",
@@ -51,22 +53,23 @@
     "@typescript-eslint/eslint-plugin": "4.15.0",
     "@typescript-eslint/parser": "4.15.0",
     "babel-loader": "8.2.2",
+    "commitlint": "11.0.0",
     "eslint": "7.20.0",
+    "husky": "5.0.9",
     "lerna": "3.22.1",
+    "lint-staged": "10.5.4",
+    "prettier": "2.2.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "rimraf": "3.0.2",
-    "scripty": "^2.0.0",
-    "sort-package-json": "^1.48.1",
+    "scripty": "2.0.0",
+    "sort-package-json": "1.48.1",
     "styled-components": "5.2.1",
     "typescript": "4.1.5"
   },
   "engines": {
     "node": ">=14.15",
     "yarn": ">=1.22"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "scripty": {
     "path": "./scripts/workspaces"
