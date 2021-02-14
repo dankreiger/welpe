@@ -4,7 +4,7 @@ on:
     branches: [main]
 jobs:
   gh_packages:
-    name: 'On Master Push - Release version GH Packages'
+    name: 'On Main Push - Release version GH Packages'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout project
@@ -29,7 +29,14 @@ jobs:
         with:
           registry-url: 'https://npm.pkg.github.com'
           scope: '@welpe'
-      # Publish to GitHub Packages
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Build new bundle for package
+        run: yarn build
+
+      - name: Publish to GitHub Packages
       - run: yarn auto-publish -y
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
