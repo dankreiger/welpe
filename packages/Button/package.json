@@ -5,9 +5,9 @@
   "types": "./lib/Button.d.ts",
   "license": "MIT",
   "scripts": {
-    "build": "tsc -p tsconfig.prod.json",
+    "build": "scripty",
     "clean": "rimraf lib *.tsbuildinfo",
-    "lint": "eslint src --ext js,ts",
-    "test": "jest"
+    "lint": "scripty",
+    "test": "scripty"
   }
 }
