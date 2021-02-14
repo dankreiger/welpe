@@ -34,7 +34,7 @@
     ]
   },
   "dependencies": {
-    "@welpe/theme": "^0.0.10"
+    "@welpe/theme": "0.0.13"
   },
   "devDependencies": {
     "@babel/core": "7.12.16",
@@ -67,7 +67,7 @@
     "node": ">=14.15",
     "yarn": ">=1.22"
   },
-  "publishConfig": {
+  "publishCongfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
