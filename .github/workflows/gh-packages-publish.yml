@@ -1,7 +1,7 @@
 name: Github Packages
 on:
-  release:
-    types: [created]
+  push:
+    branches: [ main ]
 jobs:
   gh_packages:
     name: 'On Main Push - Release version GH Packages'
