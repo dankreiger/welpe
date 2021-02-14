@@ -1,7 +1,7 @@
 {
   "name": "welpe",
   "private": true,
-  "license": "MIT",
+  "license": "BSD-2-Clause",
   "workspaces": [
     "packages/*"
   ],

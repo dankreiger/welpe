@@ -1,6 +1,7 @@
 {
   "name": "@welpe/button",
   "version": "0.0.2",
+  "license": "BSD-2-Clause",
   "homepage": "https://github.com/dankreiger/welpe",
   "bugs": "https://github.com/dankreiger/welpe/issues",
   "repository": {
@@ -8,7 +9,6 @@
     "url": "https://github.com/dankreiger/welpe.git",
     "directory": "packages/Button"
   },
-  "license": "MIT",
   "author": "Dan Kreiger <dan@dankreiger.com>",
   "main": "lib/Button.js",
   "types": "lib/Button.d.ts",
@@ -27,5 +27,6 @@
   },
   "scripty": {
     "path": "../../scripts/packages"
-  }
+  },
+  "gitHead": "2f8dd647ab142bfab4263fba1e1aa6a8ca0b10ee"
 }
