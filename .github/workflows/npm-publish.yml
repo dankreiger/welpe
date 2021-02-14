@@ -23,6 +23,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
+      - name: Install
+        run: yarn --frozen-lockfile
+
       # Setup .npmrc file to publish to GitHub Packages
       - name: Setup configuration for GH Packages
         uses: actions/setup-node@v2
