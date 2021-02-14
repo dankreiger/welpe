@@ -1,6 +1,11 @@
-import { Base, Theme } from '@welpe/theme';
+import type { Theme } from '@welpe/theme';
 
-type Theme = {
+export enum Base {
+  LIGHT = 'light',
+  DARK = 'dark',
+}
+
+export type Theme = {
   base: Base;
   backgroundColor: {
     primary: string;
@@ -14,29 +19,24 @@ type Theme = {
 
 const light: Theme = {
   base: Base.LIGHT,
-  backgroundColor: {
+  colors: {
     primary: '#0060df',
     secondary: '#fbfbfe',
-  },
-  color: {
-    font: '#000000',
-    accent: '#fd6f53',
+    copy: '#000000',
   },
 };
 
 const dark: Theme = {
   base: Base.DARK,
-  backgroundColor: {
+  colors: {
     primary: '#17ed90',
     secondary: '#243133',
-  },
-  color: {
-    font: '#ffffff',
-    accent: '#12cdea',
+    copy: '#ffffff',
   },
 };
 
 export default {
   light,
   dark,
+  Theme,
 };

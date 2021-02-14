@@ -11,9 +11,5 @@ export const Button: React.FC<IButtonProps> = ({
   label,
   ...props
 }) => {
-  return (
-    <ButtonSt type="button" style={{ backgroundColor }} {...props}>
-      {label}
-    </ButtonSt>
-  );
+  return <ButtonSt type="button">{label}</ButtonSt>;
 };

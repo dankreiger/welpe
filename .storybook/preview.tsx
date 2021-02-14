@@ -1,9 +1,9 @@
 import React from 'react';
-import { Theme } from '@welpe/theme';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from './__config__/global';
-import themes, { Base } from './themes';
+import themes from './themes';
 import locale, { getCaptionForLocale } from './locale';
+import { Base } from '@welpe/theme';
 
 const items = Object.keys(themes);
 export const globalTypes = {
