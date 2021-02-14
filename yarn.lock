@@ -3344,6 +3344,11 @@
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
 
+"@welpe/theme@^0.0.10":
+  version "0.0.10"
+  resolved "http://localhost:4873/@welpe%2ftheme/-/theme-0.0.10.tgz#fb7f851eb535562aa504b383f7cfc6747cf0b19e"
+  integrity sha512-I+hEjR5U0mCYzYjaEjgv/wGPyMXqJ1mUJHvzK2GvsKX0d5ZAickZVuTjF44t+pOncX8jzH0yJrIhatbR6X+YXQ==
+
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@xtuc/ieee754/-/ieee754-1.2.0.tgz#eef014a3145ae477a1cbc00cd1e552336dceb790"
