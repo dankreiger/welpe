@@ -30,7 +30,7 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           scope: '@dankreiger'
       # Publish to GitHub Packages
-      - run: npm publish
+      - run: yarn prod-publish
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
