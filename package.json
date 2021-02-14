@@ -1,17 +1,7 @@
 {
   "name": "welpe",
-  "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/dankreiger/welpe",
-  "bugs": {
-    "url": "https://github.com/dankreiger/welpe/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dankreiger/welpe.git"
-  },
   "license": "MIT",
-  "author": "Dan Kreiger <dan@dankreiger.com>",
   "workspaces": [
     "packages/*"
   ],

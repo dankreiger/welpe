@@ -1,9 +1,17 @@
 {
   "name": "@welpe/button",
-  "version": "1.0.0",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dankreiger/welpe",
+  "bugs": "https://github.com/dankreiger/welpe/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dankreiger/welpe.git",
+    "directory": "packages/Button"
+  },
   "license": "MIT",
-  "main": "./lib/Button.js",
-  "types": "./lib/Button.d.ts",
+  "author": "Dan Kreiger <dan@dankreiger.com>",
+  "main": "lib/Button.js",
+  "types": "lib/Button.d.ts",
   "scripts": {
     "build": "scripty",
     "clean": "rimraf lib *.tsbuildinfo",
