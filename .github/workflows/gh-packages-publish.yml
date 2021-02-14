@@ -23,17 +23,17 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-      - name: Setup configuration for GH Packages
-        uses: actions/setup-node@v2
-        with:
-          registry-url: 'https://npm.pkg.github.com'
-          scope: '@welpe'
-
       - name: Install dependencies
         run: yarn
 
       - name: Build new bundle for package
         run: yarn build
+
+      - name: Setup configuration for GH Packages
+        uses: actions/setup-node@v2
+        with:
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@welpe'
 
       - name: Publish to GitHub Packages
         run: yarn auto-publish -y
