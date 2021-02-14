@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.14 (2021-02-14)
+
+
+### Bug Fixes
+
+* **theme:** update theme type ([bc1679d](https://github.com/dankreiger/welpe/commit/bc1679dc6fc8be420963f627a393951d36cd0f31))
+
+
+
+
+
 ## [0.0.11](https://github.com/dankreiger/welpe/compare/v0.0.10...v0.0.11) (2021-02-14)
 
 

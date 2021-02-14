@@ -1,6 +1,6 @@
 {
   "name": "@welpe/button",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "homepage": "https://github.com/dankreiger/welpe",
   "bugs": "https://github.com/dankreiger/welpe/issues",
   "repository": {
@@ -21,7 +21,7 @@
     "test": "scripty"
   },
   "dependencies": {
-    "@welpe/theme": "0.0.13"
+    "@welpe/theme": "^0.0.14"
   },
   "peerDependencies": {
     "react": "17.0.1",
