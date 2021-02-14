@@ -25,7 +25,7 @@
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
-  "gitHead": "2b4b9647b8397a1793ba474166939c62d0e5875b",
+  "gitHead": "f5f064c73e771d1e3bb0a520dced610da6aadf44",
   "scripty": {
     "path": "../../scripts/packages"
   }
