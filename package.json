@@ -6,12 +6,12 @@
     "packages/*"
   ],
   "scripts": {
-    "prod-publish": "scripty",
     "build": "scripty",
     "clean": "scripty",
     "postinstall": "scripty",
     "lint": "scripty",
     "nuke": "scripty",
+    "prod-publish": "scripty",
     "proxy-registry": "scripty",
     "sort": "scripty",
     "storybook": "scripty",
@@ -45,7 +45,7 @@
     "@storybook/addon-essentials": "6.1.17",
     "@storybook/addon-links": "6.1.17",
     "@storybook/react": "6.1.17",
-    "@types/styled-components": "^5.1.7",
+    "@types/styled-components": "5.1.7",
     "@typescript-eslint/eslint-plugin": "4.15.0",
     "@typescript-eslint/parser": "4.15.0",
     "babel-loader": "8.2.2",
