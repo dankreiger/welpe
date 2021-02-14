@@ -1,0 +1,13 @@
+{
+  "name": "@welpe/button",
+  "version": "1.0.0",
+  "main": "./lib/Button.js",
+  "types": "./lib/Button.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.prod.json",
+    "clean": "rimraf lib *.tsbuildinfo",
+    "lint": "eslint src --ext js,ts",
+    "test": "jest"
+  }
+}
