@@ -33,14 +33,12 @@
       "yarn sort && prettier --write"
     ]
   },
-  "dependencies": {
-    "@dankreiger/theme": "0.0.13"
-  },
   "devDependencies": {
     "@babel/core": "7.12.16",
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
     "@commitlint/config-lerna-scopes": "11.0.0",
+    "@dankreiger/theme": "0.0.16",
     "@storybook/addon-actions": "6.1.17",
     "@storybook/addon-essentials": "6.1.17",
     "@storybook/addon-links": "6.1.17",
