@@ -13,6 +13,7 @@
     "lint": "scripty",
     "nuke": "scripty",
     "proxy-registry": "scripty",
+    "test-publish": "scripty",
     "sort": "scripty",
     "storybook": "scripty",
     "storybook:build": "build-storybook",
