@@ -23,7 +23,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-      # Setup .npmrc file to publish to GitHub Packages
       - name: Setup configuration for GH Packages
         uses: actions/setup-node@v2
         with:
@@ -37,7 +36,7 @@ jobs:
         run: yarn build
 
       - name: Publish to GitHub Packages
-      - run: yarn auto-publish -y
+        run: yarn auto-publish -y
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
