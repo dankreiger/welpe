@@ -21,11 +21,7 @@
     "start": "scripty",
     "test": "scripty"
   },
-  "peerDependencies": {
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
-  },
-  "gitHead": "0afda5d040cf1e9109da6ab4efe3ca79f64e1bec",
+  "gitHead": "94bd250fdac79950724dff227b2fd9870c53ad64",
   "scripty": {
     "path": "../../scripts/packages"
   }
