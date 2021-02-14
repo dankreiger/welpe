@@ -1,3 +1,3 @@
-import type { Theme } from './theme.types';
+import type { Base, Theme } from './theme.types';
 
-export { Theme };
+export { Base, Theme };

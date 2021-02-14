@@ -1,7 +1,4 @@
-export enum Base {
-  LIGHT = 'light',
-  DARK = 'dark',
-}
+import { Base, Theme } from '@welpe/theme';
 
 type Theme = {
   base: Base;
