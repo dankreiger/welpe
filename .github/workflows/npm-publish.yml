@@ -31,7 +31,7 @@ jobs:
         scope: '@welpe'
 
     - name: Install dependencies
-      run: yarn
+      run: npm ci
 
     - name: Build new bundle for package
       run: yarn build
