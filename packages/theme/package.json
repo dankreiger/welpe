@@ -22,7 +22,7 @@
   },
   "publishCongfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://npm.pkg.github.com"
   },
   "gitHead": "6ec4278575cf4832a621cbe86c73c4cdc6dd67e0",
   "scripty": {
