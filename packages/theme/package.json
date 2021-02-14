@@ -1,6 +1,6 @@
 {
   "name": "@welpe/theme",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "homepage": "https://github.com/dankreiger/welpe",
   "bugs": "https://github.com/dankreiger/welpe/issues",
   "repository": {
@@ -20,7 +20,11 @@
     "sort": "scripty",
     "test": "scripty"
   },
-  "gitHead": "e02461379d64a89d99451dab45b68db7ac44f3e1",
+  "publishCongfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "gitHead": "6ec4278575cf4832a621cbe86c73c4cdc6dd67e0",
   "scripty": {
     "path": "../../scripts/packages"
   }
