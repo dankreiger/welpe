@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.11](https://github.com/dankreiger/welpe/compare/v0.0.10...v0.0.11) (2021-02-14)
+
+
+### Bug Fixes
+
+* **button:** add github actions ([21bda33](https://github.com/dankreiger/welpe/commit/21bda33f3a58d41c9d7f6f2aebb7dc77c7f81b01))
+* **button:** fix props typings ([15f810d](https://github.com/dankreiger/welpe/commit/15f810d7e01609863aa9c35e004b30a57f784b43))
+
+
+
+
+
 ## [0.0.10](https://github.com/dankreiger/welpe/compare/v0.0.9...v0.0.10) (2021-02-14)
 
 **Note:** Version bump only for package @welpe/theme
