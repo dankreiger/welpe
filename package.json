@@ -6,29 +6,31 @@
     "packages/*"
   ],
   "scripts": {
+    "auto-publish": "scripty",
     "build": "scripty",
     "clean": "scripty",
     "postinstall": "scripty",
     "lint": "scripty",
     "nuke": "scripty",
+    "proxy-registry": "scripty",
     "sort": "scripty",
     "start": "scripty",
-    "storybook": "start-storybook --docs -p 6006",
+    "storybook": "scripty",
     "storybook:build": "build-storybook",
     "test": "scripty"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn sort && lint-staged",
+      "pre-commit": "lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "lint-staged": {
     "packages/**/src/*.{js,ts,tsx,jsx,json,css}": [
-      "prettier --single-quote --write"
+      "yarn sort && prettier --single-quote --write"
     ],
     "*.{md,mdx}": [
-      "prettier --write"
+      "yarn sort && prettier --write"
     ]
   },
   "devDependencies": {
