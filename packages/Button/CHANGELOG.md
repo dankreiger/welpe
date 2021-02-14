@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.7](https://github.com/dankreiger/welpe/compare/v0.0.6...v0.0.7) (2021-02-14)
+
+
+### Bug Fixes
+
+* **theme:** update config ([ebc0bb4](https://github.com/dankreiger/welpe/commit/ebc0bb4ac3315c82a13e27be2f21da57a3bc50ea))
+
+
+
+
+
 ## [0.0.6](https://github.com/dankreiger/welpe/compare/v0.0.5...v0.0.6) (2021-02-14)
 
 
