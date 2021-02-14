@@ -39,7 +39,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.0.9](https://github.com/dankreiger/welpe/compare/v0.0.8...v0.0.9) (2021-02-14)
 
-**Note:** Version bump only for package @welpe/button
+**Note:** Version bump only for package @dankreiger/button
 
 
 
@@ -113,7 +113,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.2 (2021-02-14)
 
-**Note:** Version bump only for package @welpe/button
+**Note:** Version bump only for package @dankreiger/button
 
 
 
@@ -121,4 +121,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.1 (2021-02-14)
 
-**Note:** Version bump only for package @welpe/button
+**Note:** Version bump only for package @dankreiger/button

@@ -34,7 +34,7 @@
     ]
   },
   "dependencies": {
-    "@welpe/theme": "0.0.13"
+    "@dankreiger/theme": "0.0.13"
   },
   "devDependencies": {
     "@babel/core": "7.12.16",

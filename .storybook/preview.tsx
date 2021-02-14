@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from './__config__/global';
 import themes from './themes';
 import locale, { getCaptionForLocale } from './locale';
-import { Base } from '@welpe/theme';
+import { Base } from '@dankreiger/theme';
 
 const items = Object.keys(themes);
 export const globalTypes = {

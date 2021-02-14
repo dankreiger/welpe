@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import type { Theme } from '@welpe/theme';
+import type { Theme } from '@dankreiger/theme';
 import { IButtonStProps } from './Button.types';
 
 const getBackgroundColor = ({

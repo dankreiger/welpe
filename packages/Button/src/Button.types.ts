@@ -1,4 +1,4 @@
-import type { Theme } from '@welpe/theme';
+import type { Theme } from '@dankreiger/theme';
 export interface IButtonProps {
   /**
    * Is this the principal call to action on the page?
