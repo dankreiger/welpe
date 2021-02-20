@@ -1,5 +1,5 @@
 {
-  "name": "@dankreiger/theme",
+  "name": "@welpe/theme",
   "version": "0.0.17",
   "homepage": "https://github.com/dankreiger/welpe",
   "bugs": "https://github.com/dankreiger/welpe/issues",
@@ -9,7 +9,7 @@
     "directory": "packages/theme"
   },
   "license": "BSD-2-Clause",
-  "author": "Dan Kreiger <dan@dankreiger.com>",
+  "author": "Dan Kreiger <dan@welpe.com>",
   "main": "lib/theme.js",
   "types": "lib/theme.d.ts",
   "scripts": {

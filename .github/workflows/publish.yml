@@ -30,11 +30,10 @@ jobs:
       - name: Setup configuration for GH Packages
         uses: actions/setup-node@v2
         with:
-          registry-url: 'https://npm.pkg.github.com'
-          scope: '@dankreiger'
+          scope: '@welpe'
 
       - name: Git config
-        run: git config --global user.email "dan@dankreiger.com" && git config --global user.name "Dan Kreiger"
+        run: git config --global user.email "dan@welpe.com" && git config --global user.name "Dan Kreiger"
        
       # Publish to GitHub Packages
       - name: Publish packages

@@ -39,7 +39,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.0.10](https://github.com/dankreiger/welpe/compare/v0.0.9...v0.0.10) (2021-02-14)
 
-**Note:** Version bump only for package @dankreiger/theme
+**Note:** Version bump only for package @welpe/theme
 
 
 

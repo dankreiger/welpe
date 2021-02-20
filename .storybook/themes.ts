@@ -1,4 +1,4 @@
-import type { Theme } from '@dankreiger/theme';
+import type { Theme } from '@welpe/theme';
 
 export enum Base {
   LIGHT = 'light',

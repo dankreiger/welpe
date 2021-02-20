@@ -1,5 +1,5 @@
 {
-  "name": "@dankreiger/button",
+  "name": "@welpe/button",
   "version": "0.0.17",
   "homepage": "https://github.com/dankreiger/welpe",
   "bugs": "https://github.com/dankreiger/welpe/issues",
@@ -9,7 +9,7 @@
     "directory": "packages/Button"
   },
   "license": "BSD-2-Clause",
-  "author": "Dan Kreiger <dan@dankreiger.com>",
+  "author": "Dan Kreiger <dan@welpe.com>",
   "main": "lib/Button.js",
   "types": "lib/Button.d.ts",
   "scripts": {
@@ -19,9 +19,6 @@
     "nuke": "scripty",
     "sort": "scripty",
     "test": "scripty"
-  },
-  "dependencies": {
-    "@dankreiger/theme": "^0.0.17"
   },
   "peerDependencies": {
     "react": "17.0.1",
