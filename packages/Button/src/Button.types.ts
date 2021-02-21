@@ -1,4 +1,9 @@
-import type { Theme } from '@welpe/theme';
+import type { Theme } from '@graffft/theme';
+
+/**
+ * Button props
+ * @public
+ */
 export interface IButtonProps {
   /**
    * Is this the principal call to action on the page?
@@ -14,6 +19,10 @@ export interface IButtonProps {
   onClick?: () => void;
 }
 
+/**
+ * ButtonSt props
+ * @public
+ */
 export interface IButtonStProps {
   theme: Theme;
   primary: boolean;

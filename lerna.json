@@ -3,11 +3,12 @@
     "packages/*"
   ],
   "npmClient": "yarn",
-  "version": "0.0.18",
+  "version": "0.0.0",
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "access": "public"
+      "access": "public",
+      "registry": "https://npm.pkg.github.com"
     }
   }
 }

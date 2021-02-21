@@ -1,4 +1,4 @@
-import type { Theme } from '@welpe/theme';
+import type { Theme } from '@graffft/theme';
 
 export enum Base {
   LIGHT = 'light',

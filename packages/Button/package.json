@@ -1,18 +1,19 @@
 {
-  "name": "@welpe/button",
-  "version": "0.0.18",
-  "homepage": "https://github.com/dankreiger/welpe",
-  "bugs": "https://github.com/dankreiger/welpe/issues",
+  "name": "@graffft/button",
+  "version": "0.0.0",
+  "homepage": "https://github.com/graffft/button",
+  "bugs": "https://github.com/graffft/button/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dankreiger/welpe.git",
+    "url": "https://github.com/graffft/button.git",
     "directory": "packages/Button"
   },
   "license": "BSD-2-Clause",
-  "author": "Dan Kreiger <dan@welpe.com>",
-  "main": "lib/Button.js",
-  "types": "lib/Button.d.ts",
+  "author": "Dan Kreiger <dan@dankreiger.com>",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
+    "api-report": "scripty",
     "build": "scripty",
     "clean": "rimraf lib *.tsbuildinfo",
     "lint": "scripty",
@@ -20,11 +21,18 @@
     "sort": "scripty",
     "test": "scripty"
   },
+  "dependencies": {
+    "@graffft/theme": "0.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "26.0.20",
+    "@types/styled-components": "5.1.7",
+    "jest": "26.6.3"
+  },
   "peerDependencies": {
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
-  "gitHead": "6ec4278575cf4832a621cbe86c73c4cdc6dd67e0",
   "scripty": {
     "path": "../../scripts/packages"
   }

@@ -1,18 +1,19 @@
 {
-  "name": "@welpe/theme",
-  "version": "0.0.18",
-  "homepage": "https://github.com/dankreiger/welpe",
-  "bugs": "https://github.com/dankreiger/welpe/issues",
+  "name": "@graffft/theme",
+  "version": "0.0.0",
+  "homepage": "https://github.com/graffft/theme",
+  "bugs": "https://github.com/graffft/theme/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dankreiger/welpe.git",
+    "url": "https://github.com/graffft/theme.git",
     "directory": "packages/theme"
   },
   "license": "BSD-2-Clause",
-  "author": "Dan Kreiger <dan@welpe.com>",
-  "main": "lib/theme.js",
-  "types": "lib/theme.d.ts",
+  "author": "Dan Kreiger <dan@dankreiger.com>",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
+    "api-report": "scripty",
     "build": "scripty",
     "clean": "rimraf lib *.tsbuildinfo",
     "lint": "scripty",
@@ -20,7 +21,10 @@
     "sort": "scripty",
     "test": "scripty"
   },
-  "gitHead": "6ec4278575cf4832a621cbe86c73c4cdc6dd67e0",
+  "devDependencies": {
+    "@types/jest": "26.0.20",
+    "jest": "26.6.3"
+  },
   "scripty": {
     "path": "../../scripts/packages"
   }

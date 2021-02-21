@@ -1,6 +1,6 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { GlobalStyle } from './__config__/global';
+import { GlobalStyle } from './_config/global';
 import themes, { Base } from './themes';
 import locale, { getCaptionForLocale } from './locale';
 

@@ -121,3 +121,10 @@ _config.yml
 
 # output
 lib
+
+# api docs
+temp
+
+# WIP
+bundler
+package.tmp.json
